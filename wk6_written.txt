@@ -1,0 +1,59 @@
+1. 
+    Fetch api is simply a interface that fetches resources, making it easier to create web requests, handle responses vs
+    that of older XMLHttpRequest. It replaces the functionalities of XMLHttpRequest. It provides the interface for fetching
+    resources from the Web, or a individual's project. 
+
+2. 
+An object that is a representation of eventual completion or failure of a sequence of operations or an asynchronous operations
+with its resulting value. 
+
+3. 
+ - It retrieves data from a URL w/o a full page refresh. In other words a partial page refresh is favored for developers
+ b/c only a portion of the page will be updated w/o disturbance of the user's activity.  
+ - It is more widely used and been around since the release in July 2000 when AJAX had become popular; in 2005.  
+
+
+4.
+Fetch api is completely based on a promise base with providing an interface for fetching resources around the web or a personal
+project. 
+
+
+5.
+function nameOfFunction() {
+ // code to be executed here
+}
+
+
+6. 
+the function keyword
+
+7. 
+after the function keyword, it is followed by the function name
+
+8. 
+They follow the same rules as variables, it can contain letters, numbers and underscores. Numbers however cannot be the first character.  
+
+9. 
+Promise chaining is represented by '.then()' blocks. 
+
+10.
+Arrow functions are used in the .then() blocks so that the object can seamlessly pass from one .then() block to the another one similar
+to it;w/o implementing extra code that is essentially accomplished with chaining. 
+
+11.
+It is a web api that let the user give location access to the web app 
+
+12. 
+- Add the Geolocation permission property to the code; which is the entry point. This will prompt the user's device to allow a first time 
+location access, when requested. This permission property looks like navigator.geolocation
+- After the navigator.geolocation property comes the geoSuccess() function that allows for accessibility to the Geolocation API.
+This is then passed into .getCurrentPosition through the else statement of an if/else statement that checks for 
+an available Geolocation APi that is an active window browser.
+
+
+13.
+ The user allows the app for location access through browser location permissions that will be a notification. If one clicks yes than the 
+ browser will be active allowing for one's location to be found. If no then the browser will not be accessible for location permissions.   
+
+14. 
+ Via the .getCurrentPosition() method. 
