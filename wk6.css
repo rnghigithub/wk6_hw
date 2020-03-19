@@ -1,0 +1,12 @@
+
+
+body{
+    background-color: grey;
+    font-size: 12px;
+    font-family:'Helvetica', sans-serif;
+    color: cornsilk;
+};
+
+.buttons {
+    align-items: center;
+};
