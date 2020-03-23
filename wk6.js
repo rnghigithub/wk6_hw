@@ -1,5 +1,5 @@
 const ul = document.getElementById('geo_app');
-const geoIpUrl = 'https://freegeoip.app/json';
+const geoIpUrl = 'https://freegeoip.app/json/';
 
 function getGeoIP(ip) {
     fetch(geoIpUrl)
