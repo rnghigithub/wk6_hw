@@ -11,7 +11,6 @@ function getGeoIP(ip) {
 const contain = document.querySelector('#contain');
 const contain2 = document.querySelector('.contain2');
 
-//  cotain and contain 2 is a div class in html but not working, need to look more.  // 
 
 const title = document.querySelector('#title'); 
 title.innerHTML = 'Greetings! Click on the link below to locate where you are on Open Street Maps';
@@ -22,13 +21,12 @@ linked.href = '';
 linked.textContent = '';
 
 const div = document.querySelector('.align');
-div.innerHTML = 'Your <span> location </span> is coming from is <span class = "info"> ${ip[location_name]}</span>'; 
+div.innerHTML = 'Your <span> location </span> is coming from is <span class = "info"> ${ip[country_name]}</span>'; 
 
 function geoSuccess(position) {
     const latitude = position.coords.latitude;
     const longitude = position.coords.longitude;
 
-// In the example shown the variables latitude and longitude work but not in my code // 
 
     status.textContent = '';
     linked.href = 'https://www.openstreetmap.org/#map=18/${latitude}/${longitude}'; 
@@ -64,4 +62,4 @@ const btnRefresh = document.getElementById('.look-for-this"');
  
 const btnSuccess = document.querySelector('.look');
     btnSuccess.textContent = 'look';
-    btnSuccess.addEventListener('click', getGeoIP);    
+    btnSuccess.addEventListener('click', getGeoIP);
