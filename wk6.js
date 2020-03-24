@@ -58,7 +58,7 @@ function refresh() {
     document.location.reload();
 } 
 
-const btnRefresh = document.getElementById('.Look_For_This');
+const btnRefresh = document.getElementById('.look-for-this"');
     btnRefresh.textContent = 'Refresh';
     btnRefresh.addEventListener('click', refresh);
  
