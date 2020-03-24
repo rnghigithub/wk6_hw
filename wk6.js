@@ -14,7 +14,7 @@ const contain2 = document.querySelector('.contain2');
 //  cotain and contain 2 is a div class in html but not working, need to look more.  // 
 
 const title = document.querySelector('#title'); 
-title.innerHTML = 'Greetings! Click on the link below to locate where you are on Google Maps';
+title.innerHTML = 'Greetings! Click on the link below to locate where you are on Open Street Maps';
 
 const loaded = document.querySelector('#loaded');  
 const linked = document.queryCommandValue('#linked'); 
