@@ -59,9 +59,9 @@ function refresh() {
 } 
 
 const btnRefresh = document.getElementById('.look-for-this"');
-    btnRefresh.textContent = 'Refresh';
+    btnRefresh.textContent = 'refresh';
     btnRefresh.addEventListener('click', refresh);
  
-const btnSuccess = document.querySelector('.Look');
-    btnSuccess.textContent = 'Look';
+const btnSuccess = document.querySelector('.look');
+    btnSuccess.textContent = 'look';
     btnSuccess.addEventListener('click', getGeoIP);    
